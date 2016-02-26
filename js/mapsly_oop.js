@@ -1,6 +1,12 @@
 
 var Mapsly = {};
+  /** @constructor Mapsly.MapStats
+   * 
+     * Defines the options object for building a map.
+     * @param Number lat - The starting latitude 
+     */
 Mapsly.MapStats = function(lat,lng,zoom){
+  
 this.center = new Mapsly.GeoPoint(lat,lng);
 this.zoom = zoom;
 };
@@ -34,3 +40,6 @@ Mapsly.LineProperties = function(path,geodesic,strokeColor,strokeOpacity,strokeW
 Mapsly.PointOfView = function(heading,pitch){
     this.heading = heading;
 };
+Mapsly.ImageBounds = function(){
+    
+}
