@@ -33,5 +33,4 @@ Mapsly.LineProperties = function(path,geodesic,strokeColor,strokeOpacity,strokeW
 };
 Mapsly.PointOfView = function(heading,pitch){
     this.heading = heading;
-    this.pitch = pitch;
 };
